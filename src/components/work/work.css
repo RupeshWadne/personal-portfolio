@@ -6,6 +6,11 @@
     margin-bottom: var(--mb-2);
 }
 
+.work__info {
+    display: flex;
+    justify-content: space-between;
+}
+
 .work__item {
     cursor: pointer;
     color: var(--title-color);

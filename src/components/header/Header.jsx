@@ -16,8 +16,8 @@ const Header = ({darkMode, setDarkMode}) => {
         
 
             <nav className="nav container">
-                <a href="index.html" className="nav__logo">
-                <img className="logo" src="src/assets/logo.png" alt="" />
+                <a href="#" className="nav__logo">
+                <img className="logo" src="src/assets/rupesh.png" alt="" />
                 </a>
 
                 
@@ -73,6 +73,16 @@ const Header = ({darkMode, setDarkMode}) => {
                                 className={activeNav ==="#portfolio" ? "nav__link active__link" : "nav__link"}
                             >
                                 <i className="uil uil-scenery nav__icon"></i>Portfolio
+                            </a>
+                        </li>
+
+                        <li className="nav__item">
+                            <a 
+                                href="#blogs" 
+                                onClick={() => setActiveNav("#blogs")}
+                                className={activeNav ==="#blogs" ? "nav__link active__link" : "nav__link"}
+                            >
+                                <i className="uil uil-scenery nav__icon"></i>Blogs
                             </a>
                         </li>
 

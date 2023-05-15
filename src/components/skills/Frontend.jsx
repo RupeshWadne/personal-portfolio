@@ -42,7 +42,7 @@ const Frontend = () => {
 
                         <div>
                             <h3 className="skills__name">Tailwind CSS</h3>
-                            <span className="skills__level">Basic</span>
+                            <span className="skills__level">intermediate</span>
                         </div>
                     </div>
                     <div className="skills__data">

@@ -43,6 +43,10 @@
     display: inline-flex;
 }
 
+.footer__social-link_hash {
+    width: 20px;
+}
+
 .footer__social-link:hover {
     background-color: var(--title-color-dark);
 }

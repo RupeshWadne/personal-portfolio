@@ -1,7 +1,7 @@
 import React from 'react'
 import './about.css'
 import AboutImg from "../../assets/shubham.png"
-import CV from "../../assets/Rupesh_Wadne.pdf"
+import CV from "../../assets/RupeshWadneResume.pdf"
 import Info from "./Info"
 
 const About = () => {
@@ -16,7 +16,7 @@ const About = () => {
                 <div className="about__data">
                     <Info />
 
-                    <p className="about__description">Web3 Developer, I develop FrontEnd of Dapps, I made lots of amazing projects in Blockchain Space.</p>
+                    <p className="about__description"> I specialize in Solidity smart contract development and have a deep understanding of the Ethereum network and its ecosystem. My experience ranges from building non-fungible token (NFT) marketplaces to builing on web3 protocols like LENS, and I have a passion for creating innovative solutions that leverage the power of web3 technologies.</p>
 
                     <a download="" href={CV} className="button button--flex">Download CV
                     <svg

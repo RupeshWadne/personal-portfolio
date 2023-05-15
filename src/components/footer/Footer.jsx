@@ -1,5 +1,6 @@
 import React from 'react'
 import './footer.css'
+import hashnde from "../../assets/brand-icon.png"
 
 const Footer = () => {
     return (
@@ -23,24 +24,30 @@ const Footer = () => {
             
                 <div className="footer__social">
                     <a 
-                        href="https://www.instagram.com/" className="footer__social-link"
+                        href="https://www.instagram.com/rupesh_wadne_" className="footer__social-link"
                         target="_blank"
                     >
                         <i class="bx bxl-instagram"></i>
                     </a>
 
                     <a 
-                        href="https://www.twitter.com/" className="footer__social-link"
+                        href="https://www.twitter.com/rupesh_wadne_" className="footer__social-link"
                         target="_blank"
                     >
                         <i class="bx bxl-twitter"></i>
                     </a>
 
                     <a 
-                        href="https://www.github.com/" className="footer__social-link"
+                        href="https://github.com/RupeshWadne" className="footer__social-link"
                         target="_blank"
                     >
                         <i class="bx bxl-github"></i>
+                    </a>
+                    <a 
+                        href="https://shubhamwadne.hashnode.dev/" className="footer__social-link"
+                        target="_blank"
+                    >
+                        <img className="footer__social-link_hash" src={hashnde}></img>
                     </a>
                 </div>
 
