@@ -17,7 +17,8 @@ const Header = ({darkMode, setDarkMode}) => {
 
             <nav className="nav container">
                 <a href="#" className="nav__logo">
-                <img className="logo" src="src/assets/rupesh.png" alt="" />
+                {/* <img className="logo" src="src/assets/rupesh.png" alt="" /> */}
+                <p className="logo">RUPESH</p>
                 </a>
 
                 

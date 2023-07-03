@@ -16,8 +16,12 @@
 }
 
 .logo {
-    width: 90px;
+    font-size: 25px;
     margin-top: 10px;
+}
+.logo::first-letter{
+    color: coral;
+    font-size: 35px;
 }
 
 .nav__logo,

@@ -1,7 +1,7 @@
 import React from 'react'
 import './about.css'
 import AboutImg from "../../assets/shubham.png"
-import CV from "../../assets/RupeshWadneResume.pdf"
+import CV from "../../assets/NewResumeforjuly.pdf"
 import Info from "./Info"
 
 const About = () => {
@@ -11,12 +11,12 @@ const About = () => {
             <span className="section__subtitle">My Introduction</span>
 
             <div className="about__container container ">
-                <img src={AboutImg} alt="" className="about__img" />
+                {/* <img src={AboutImg} alt="" className="about__img" /> */}
 
                 <div className="about__data">
                     <Info />
 
-                    <p className="about__description"> I specialize in Solidity smart contract development and have a deep understanding of the Ethereum network and its ecosystem. My experience ranges from building non-fungible token (NFT) marketplaces to builing on web3 protocols like LENS, and I have a passion for creating innovative solutions that leverage the power of web3 technologies.</p>
+                    <p className="about__description"> I specialize in Frontend development and have a very good understanding of Web3 ecosystem. My experience ranges from creating engaging user interfaces to building NFT marketplaces & building on web3 protocols like LENS, and I have a passion for creating innovative solutions that leverage the power of web3 technologies. Eager to contribute to a dynamic team and gain hands-on experience in building modern and responsive web applications.</p>
 
                     <a download="" href={CV} className="button button--flex">Download CV
                     <svg
