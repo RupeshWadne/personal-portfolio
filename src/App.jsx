@@ -11,6 +11,7 @@ import Blog from './components/blogs/Blog'
 import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
 import Scrollup from './components/scrollup/Scrollup'
+import NewAbout from './components/newabout/NewAbout'
 
 function App() {
   const [darkMode, setDarkMode] = useState(false)
@@ -21,6 +22,7 @@ function App() {
       <main className="main">
         <Home />
         <About />
+        {/* <NewAbout/> */}
         <Skills />
         <Services />
         <Work />
